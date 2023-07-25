@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .mainContainer{
+            height:600px;
+            width:100%;
+            border:2px solid black;
+            
+        }
+
+        .logo{
+            font-size: 30px;
+            padding-top:50px;
+        }
+
+        .navoptions{
+            float:right;
+        }
+
+        .header{
+            height:100px;
+            width:100%;
+            background-color: black;
+            color:white;
+            padding:30px 10px;
+        }
+
+        .main{
+            height:400px;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product{
+            height:200px;
+            width:600px;
+            border:2px solid black;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap:20px;
+            column-gap: 20px;
+        }
+
+        .footer{
+            height:100px;
+            width:100%;
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding:50px;
+            gap:10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <header class="header">
+            <span class="logo">Company Logo</span>
+            <div class="navoptions">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </header>
+        <main class="main">
+            <div class="product">
+                <div class="r1">
+                    <img src="https://picsum.photos/150/150" alt="productimg">
+                </div>
+                <div class="r2">
+                    <h4>Product Name</h4>
+                    <br/>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, voluptates?
+                    <br/>
+                    Price:Rs150
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            Contact us at:example@email.com
+        </footer>
+    </div>
+</body>
+</html>
