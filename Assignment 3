@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <style>
+        .parentdiv{
+            /* border:2px solid black; */
+            display:flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap:wrap;
+        }
+        .childdiv{
+
+            border:10px solid orange;
+            outline:8px solid yellow;
+            height:800px;
+            width:800px;
+            display:flex;
+            /* justify-content: center; */
+            align-content: center;
+            flex-wrap:wrap;
+            font-size:40px;
+           
+            /* flex-wrap: wrap; */
+        }
+
+        .innerchild{
+
+            display:flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .product{
+            height:300px;
+            width:600px;
+            background-color: orange;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parentdiv">
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 4</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 5</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 6</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="childdiv">
+            <div class="innerchild">
+                <div class="product"></div>
+                <div>
+                    <h1>Product 7</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
